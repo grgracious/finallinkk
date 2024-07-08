@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pilih Bahasa</title>
+    <style>
+        body {
+            text-align: center;
+            background-image: url('blue pink.jpg'); /* Ganti dengan path gambar Anda */
+            background-size: cover; /* Mengatur gambar agar menutupi seluruh layar */
+            background-position: center; /* Mengatur posisi gambar di tengah */
+            background-repeat: no-repeat; /* Mencegah pengulangan gambar */
+            color: #361131; /* Mengubah warna teks */
+        }
+
+        h1 {
+            font-size: 100px;
+            margin-bottom: 20px; /* Menambahkan margin bawah pada judul */
+            margin-top: 100px;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 50px; /* Menurunkan posisi container */
+        }
+
+        .option {
+            width: 350px; /* Memperbesar lebar kotak */
+            height: 450px; /* Memperbesar tinggi kotak */
+            background-color: #ddd9d9; /* Mengubah latar belakang kotak menjadi putih */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 40px; /* Memperbesar ukuran font */
+            margin-bottom: 20px; /* Menambahkan margin bawah pada kotak */
+            margin-top: 30px; /* Menurunkan posisi kotak */
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            transition: transform 0.2s;
+            color: #310d20;
+        }
+
+        .option:hover {
+            transform: scale(1.05); /* Membesarkan kotak saat di-hover */
+        }
+    </style>
+</head>
+<body>
+    <h1>Pilih Bahasa</h1>
+    <div class="container">
+        <a href="Indonesia 12-18.html" class="option">Bahasa Indonesia</a>
+        <a href="English 12-18.html" class="option">Bahasa Inggris</a>
+    </div>
+</body>
+</html>
